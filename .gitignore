@@ -1,0 +1,6 @@
+# IGNORE IDE FILES
+/nbproject/*
+
+# IGNORE NODE and BOWER MODULES
+server_api/node_modules/*
+server_web/bower_components/*

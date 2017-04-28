@@ -1,0 +1,13 @@
+<div class="container catalog-list">
+    <div class="container">
+        <button type="button" ng-click="$ctrl.downloadPdf()" >Download PDF</button>
+    </div>  
+    <ul>
+        <li ng-repeat="item in catalogList">
+            <div>
+                <label><input type="checkbox" ng-model="checked" checklist-model="selected.id" checklist-value="item._id" /><span class="title">Title: {{item.title}}</span></label>
+                <p>Description: {{item.description| limitTo: 200 }}</p>
+            </div>
+        </li>
+    </ul>
+</div>

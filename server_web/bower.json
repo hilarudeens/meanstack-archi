@@ -1,0 +1,25 @@
+{
+  "name": "PDF WEB SERVER",
+  "authors": [
+    "hilarudeens <hilar.udeen@gmail.com>"
+  ],
+  "description": "Web server to serve html pages",
+  "main": "index.html",
+  "keywords": [
+    "Web",
+    "server"
+  ],
+  "license": "MIT",
+  "homepage": "index.html",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.4"
+  }
+}

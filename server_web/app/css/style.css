@@ -1,0 +1,24 @@
+/* 
+    Created on : Apr 28, 2017, 1:42:22 AM
+    Author     : hilarudeensheikallaudeen
+*/
+.container.catalog-list{
+    margin: 0px auto 0px auto; 
+    max-width:600px;
+}
+
+.container.catalog-list ul li{
+    list-style-type: none;
+}
+
+.container.catalog-list button{
+    border: none;
+    background-color: #263238;
+    color: #FFF;
+    padding: 20px;
+}
+
+.container.catalog-list .title{
+    font-size: 18px;
+    font-weight: bold;
+}

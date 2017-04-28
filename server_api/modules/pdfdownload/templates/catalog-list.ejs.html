@@ -1,0 +1,13 @@
+<div style="font-size:70px;width:100%;"> 
+    <h2>Research Paper List</h2> 
+    <ul>
+        <% data.forEach(function(item){ %>
+        <li>
+            <div>
+                <h3>Title: <%= item.title %></span></h3>
+                <p>Description:<%= item.description %></p>
+            </div>
+        </li>
+        <% }); %>
+    </ul>
+</div>
